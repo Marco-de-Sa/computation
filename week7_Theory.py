@@ -23,7 +23,9 @@ print("------------------------------------------------------")
 print(f"Name: {name}\nstudent number: {SD}\nNumber of classes: {classNum}\nList of classes:")
 for i in range(classNum):
     print(f"- {classRef[i]}")
-print(f"cost list: {price}")
+print("breakdown of costs: ")
+for i in range(len(price)):
+    print(f"- {price[i]} Euro for course {classRef[i]}")
 for i in range(len(price)):
     costFinal+= price[i]
-print(f"the final price is: {costFinal}")
+print(f"the final price is: {costFinal} Euros")
