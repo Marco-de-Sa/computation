@@ -10,8 +10,8 @@ def addition(num1, num2):
     if temp <= 10:
         addition(temp, temp)
 
-    # returns the string "numbers additioned successfully :)"
-    return "numbers additioned successfully :)"
+    # returns the string "numbers added successfully :)"
+    return "numbers added successfully :)"
 
 # prints the returned value off the addition function where arg 1 is 1 and arg 2 is 1
 print(addition(1,1))
