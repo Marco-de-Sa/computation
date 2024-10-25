@@ -1,17 +1,17 @@
 # defines a function
-def add(num1, num2):
-    # adds the two args together then adds assigns it to the temp variable
+def addition(num1, num2):
+    # additions the two args together then additions assigns it to the temp variable
     temp = num1 + num2
 
     # prints the temp value
     print(temp)
 
-    # checks if the temp value is below 10 and if it is it calls the add function again
+    # checks if the temp value is below 10 and if it is it calls the addition function again
     if temp <= 10:
-        add(temp, temp)
+        addition(temp, temp)
 
-    # returns the string "numbers added successfully :)"
-    return "numbers added successfully :)"
+    # returns the string "numbers additioned successfully :)"
+    return "numbers additioned successfully :)"
 
-# prints the returned value off the add function where arg 1 is 1 and arg 2 is 1
-print(add(1,1))
+# prints the returned value off the addition function where arg 1 is 1 and arg 2 is 1
+print(addition(1,1))
