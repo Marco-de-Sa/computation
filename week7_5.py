@@ -1,5 +1,5 @@
-intList, count = [], 0
-for i in range(5):
+intList, count, listSize = [], 0, int(input("input the size of the list: "))
+for i in range(0, listSize):
     intList.append(int(input("input an integer: ")))
 
 for i in range(len(intList)):
