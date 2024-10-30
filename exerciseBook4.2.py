@@ -4,6 +4,7 @@
 #     print("True")
 # else:
 #     print("False")
+from getpass import fallback_getpass
 
 # exercise 2
 # age = int(input("what is your age?: "))
@@ -53,3 +54,23 @@
 # a = input("input characters")
 # b = input("insert a number from 0 until the size of the string / 2")
 # c = input("insert a number from 0 until the size of the string / 2")
+
+# exercise 11
+# N = input("input a sentence")
+# if "benfica" in N.lower() or "sporting" in N.lower():
+#     print("benfica or sporting is mentioned")
+
+# exercise 12
+# colour, animal = input("input your favourite colour"), input("input your favourite animal")
+# if len(colour)>len(animal):
+#     print(True)
+# else:
+#     print(False)
+
+# exercise 13
+# by = int(input("input your birth year:"))
+# print(f"you will be {2024-by+5} in five years")
+# print(f"you will be {2024-by+20} in twenty years")
+# print(f"you will be {2024-by+50} in fifty years")
+
+# exercise 14
