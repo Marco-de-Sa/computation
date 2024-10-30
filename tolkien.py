@@ -7,4 +7,4 @@
 
 s = "hello world :)"
 s = s.split(' ')
-print(s[2])
+print(s[1])
