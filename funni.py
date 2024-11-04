@@ -1,1 +1,7 @@
-print(chr(sum(range(ord(min(str(not())))))))
+print(f"not: {not()}")
+print(f"string conversion: {str(not())}")
+print(f"min: {min(str(not()))}")
+print(f"ord(returns unicode point for a one char string):{ord(min(str(not())))}")
+print(f"range: {range(ord(min(str(not()))))}")
+print(f"sum of all the range values: {sum(range(ord(min(str(not())))))}")
+print(f"gets the char for the unicode above(amogus): {chr(sum(range(ord(min(str(not()))))))}")
