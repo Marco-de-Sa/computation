@@ -11,6 +11,6 @@ except ZeroDivisionError:
     print("sorry you cannot divide by zero")
 # print(5/0)
 try:
-    int(input("don't input a number :)"))
+    int(input("don't input an integer :)"))
 except ValueError:
     print("good job")
