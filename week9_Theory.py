@@ -10,3 +10,7 @@ try:
 except ZeroDivisionError:
     print("sorry you cannot divide by zero")
 # print(5/0)
+try:
+    int(input("don't input a number :)"))
+except ValueError:
+    print("good job")
