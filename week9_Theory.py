@@ -1,7 +1,7 @@
 try:
     def greet(hello, world):
         print(f"{hello} {world}")
-        x = range(10)[0]
+        x = range(10)[6]
         print(x)
         return 5**2
 
