@@ -10,5 +10,4 @@ def askgrade():
     except ValueError:
         temp = askgrade()
     return temp
-
 print(askgrade())
