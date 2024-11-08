@@ -6,7 +6,7 @@ while guess != rand:
     count += 1
 if count <= 2:
     print(f"congrats! you only had to guess {count} times")
-elif 3 <= count <= 5:
+elif count <= 5:
     print(f"{count} guesses is not very impressive :(")
 else:
     print("you are unlucky!")
