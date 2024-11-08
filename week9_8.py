@@ -8,6 +8,7 @@ def ask_grade():
         else:
             temp = ":)"
     except ValueError:
+        print("please input an integer!")
         temp = ask_grade()
     return temp
 print(ask_grade())
