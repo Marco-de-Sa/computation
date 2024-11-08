@@ -1,4 +1,4 @@
-def askgrade():
+def ask_grade():
     try:
         grade = int(input("what is your final grade: "))
         while grade < 0 or grade > 20:
@@ -8,6 +8,6 @@ def askgrade():
         else:
             temp = ":)"
     except ValueError:
-        temp = askgrade()
+        temp = ask_grade()
     return temp
-print(askgrade())
+print(ask_grade())
