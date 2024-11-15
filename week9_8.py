@@ -14,7 +14,7 @@
 # print(ask_grade())
 
 grade = input("what is your final grade: ")
-while not grade.isdigit():
+while not grade.isdigit() or not 0 <= int(grade) <= 20:
     grade = input("what is your final grade: ")
 grade = int(grade)
 while grade < 0 or grade > 20:
