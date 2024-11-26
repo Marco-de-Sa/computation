@@ -29,5 +29,3 @@
 # plus_4_arr(vet)
 # print(vet)
 # this'll print out 14 and 19
-
-"""5/0"""
