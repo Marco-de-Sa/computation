@@ -7,7 +7,7 @@ if choice == "1":
 elif choice == "2":
     final = [List]
     for j in range(2):
-        temp = List
+        temp = List.copy()
         final.append(temp)
         for i in range(len(temp)):
             temp[i] *= (2+j)
