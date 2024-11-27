@@ -6,8 +6,8 @@ root = Tk()
 
 # root window title and dimensions
 root.title("welcome")
-# sets the WidthxHeight
-root.geometry('350x200')
+# sets the Width x Height
+root.geometry('40   0x200')
 
 # menu bar for the root window
 menu = Menu(root)
