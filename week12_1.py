@@ -1,9 +1,9 @@
 # following function gets the smallest value in the parsed list
-def getSmall(list):
-    temp = list[0]
-    for i in range(len(list)):
-        if temp > list[i]:
-            temp = list[i]
+def get_small(list1):
+    temp = list1[0]
+    for i in range(len(list1)):
+        if temp > list1[i]:
+            temp = list1[i]
     print(temp)
 
 # following while loop keeps iterating until a number above 0 is inputted
@@ -18,4 +18,4 @@ count = 0
 numList = [int(input("input a number")) for i in range(x)]
 
 # calls getSmall with numList as the parsed list
-getSmall(numList)
+get_small(numList)
