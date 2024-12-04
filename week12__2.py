@@ -4,7 +4,7 @@ def var_in_list(arr, var):
     for i in range(len(arr)):
         if arr[i] == var:
             positions.append(i)
-    print(f"{var} appears in indexes {positions}")
+    print(f"{var} appears in the indexes: {positions}")
 
 # defines a user-made list of a user specified length and parses it into the var_in_list function
 num = int(input("input a the length of a list: "))
