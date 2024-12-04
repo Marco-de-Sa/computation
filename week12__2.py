@@ -7,6 +7,7 @@ def var_in_list(arr, var):
     print(f"{var} appears in indexes {positions}")
 
 # defines a pre-made list and variable and parses it into the var_in_list function
-l = [1, 2, 3, 2]
-v = 2
+num = int(input("input a the length of a list: "))
+l = [int(input("input a number: ")) for i in range(num)]
+v = int(input("input the number you'd like to search for: "))
 var_in_list(l, v)
