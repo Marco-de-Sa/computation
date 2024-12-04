@@ -5,9 +5,9 @@ from tkinter import *
 root = Tk()
 
 # root window title and dimension
-root.title("Welcome to GeekForGeeks")
+root.title("this is the label for the window")
 # Set geometry(widthxheight)
-root.geometry('350x200')
+root.geometry('500x300')
 
 # adding menu bar in root window
 # new item in menu bar labelled as 'New'
@@ -15,11 +15,12 @@ root.geometry('350x200')
 menu = Menu(root)
 item = Menu(menu)
 item.add_command(label='New')
+item.add_command(label='old')
 menu.add_cascade(label='File', menu=item)
 root.config(menu=menu)
 
 # adding a label to the root window
-lbl = Label(root, text = "Are you a Geek?")
+lbl = Label(root, text = "This is the label for the window")
 lbl.grid()
 
 # adding Entry Field
@@ -30,7 +31,6 @@ txt.grid(column =1, row =0)
 # function to display user text when
 # button is clicked
 def clicked():
-
     res = f"You wrote {txt.get()}"
     lbl.configure(text = res)
 
