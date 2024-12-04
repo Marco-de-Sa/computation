@@ -1,4 +1,4 @@
-# takes two ints and puts a to the power of b afterward it returns the result
+# takes two ints(a and b) and puts a to the power of b afterward it returns the result
 def to_power(a, b):
     return a**b
 
