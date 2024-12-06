@@ -10,6 +10,6 @@ def process_num(n):
 number = int(input("input a num: "))
 dicti = process_num(number)
 # hell
-print(f"{number} to the power of 2: "+dicti["one"])
-print(f"square root of {number}: "+dicti["two"])
-print(f"how many digits are in {number}: "+dicti["three"])
+print(f"{number} to the power of 2:",dicti["one"])
+print(f"square root of {number}:",dicti["two"])
+print(f"how many digits are in {number}:",dicti["three"])
