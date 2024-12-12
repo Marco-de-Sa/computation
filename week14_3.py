@@ -1,0 +1,9 @@
+while True:
+    n = int(input("give me a number: "))
+    if n > 0:
+        break
+
+for i in range(n):
+    for j in range(4):
+        print(i+1, end= " ")
+    print()

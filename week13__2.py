@@ -4,6 +4,7 @@ def ave_mat(mat):
         for j in range(len(mat[i])):
             som_van += mat[i][j]
     return som_van/(len(mat[0])*len(mat))
+
 def large_mat(mat):
     temp = mat[0][0]
     for i in range(len(mat)):
