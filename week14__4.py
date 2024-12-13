@@ -7,6 +7,8 @@ def comparing(n, s, l):
         return s
     elif l1 > n and l1 > s1:
         return l
+    else:
+        return -1
 
 
 print(comparing(int(input("give me a number!")), input("give me a string!: "), [1, 2, 3, 4, 5, 6, 7, 8]))
