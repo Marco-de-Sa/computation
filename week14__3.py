@@ -1,8 +1,8 @@
 def get_list():
-    list = []
+    lt = []
     for i in range(5):
-        list.append(int(input("give me a number: ")))
-    return list
+        lt.append(int(input("give me a number: ")))
+    return lt
 
 
 def get_min(l):
