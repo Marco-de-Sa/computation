@@ -1,4 +1,5 @@
 n = input("give me a number: ")
+
 while not(n.isdigit()) or n == "0":
     n = input("give me a number: ")
 
