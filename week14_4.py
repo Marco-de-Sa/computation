@@ -15,6 +15,8 @@ def list_sum(mat):
 
 y = int(input("input num of rows: "))
 x = int(input("input number of columns: "))
+
 matr = [[int(input("gimme a number")) for j in range(x)] for i in range(y)]
+
 print(matr)
 list_sum(matr)
